@@ -1,15 +1,17 @@
 {
-  "name": "oasisspalagos",
-  "version": "1.0.0",
-  "description": "OASIS SPA Lagos - Premium Mobile Wellness",
+  "name": "oasis-spa-lagos",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npx serve .",
-    "build": "echo 'Static site - no build required'",
-    "lint": "echo 'No linter configured for static HTML'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.1.1"
-  },
-  "devDependencies": {}
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@vercel/analytics": "latest"
+  }
 }
